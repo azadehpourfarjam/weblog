@@ -1,0 +1,333 @@
+
+@font-face{
+    font-family: 'shabnam';
+    src: 
+    url('../fonts/Shabnam.eot')
+    url('../fonts/Shabnam.woff')
+    url('../fonts/Shabnam.ttf');
+    ;
+}
+
+body{
+    font-family:'shabnam';
+}
+.logBoxes{
+    padding: 50px;
+}
+
+.logBoxes h1.header{
+    height: 60px;
+    line-height:60px;
+    width: 300px;
+    margin: auto auto;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+.logBoxes h1.header::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 2px);
+    background-color: crimson;
+}
+.logBoxes h1.header::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 2px);
+    background-color: crimson;
+}
+.boxes{
+    padding: 20px 0;
+    direction: rtl;
+}
+
+.boxes .card .card-body h5{
+    font-size: 17px;
+    font-weight: bold;
+}
+.boxes .card p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.boxes .card a{
+    border-radius: 10px;
+}
+.boxes .card a span{
+    font-size: 12px;
+    margin-right: 7px;
+}
+.flex-item span.imgWrapper{
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+.flex-item span.imgWrapper img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.flex-item span{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+span.icon{
+    font-family: farsi-digit;
+}
+.chevron-left{
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+.chevron-left img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* formsWrapper */
+.formsWrapper{
+    direction: rtl;
+}
+.formsWrapper .form{
+    box-shadow: 2px 2px 2px grey , -2px -2px 2px gray;
+    border-radius: 16px;
+    height: 700px;
+    background-color:#fefcfb;
+    position: relative;
+}
+
+.form .form-header>a.phoneUs{
+    display: block;
+    padding:10px 50px;
+    width: 300px;
+    background-image: linear-gradient(45deg,#412493 0%,#0077b6 90%);
+    color: #fff;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    margin: auto auto 40px auto;
+}
+.form-header>a.phoneUs>img{
+    display: block;
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    left: -10px;
+    top: -20px;
+}
+.form input{
+    padding: 20px;
+    outline: none;
+    box-shadow: 2px 2px 1px lightgrey , -2px -2px 1px lightgrey;
+    border-radius: 10px;
+}
+
+.form input::placeholder{
+    font-size: 13px;
+    font-weight:600;
+    color: black;
+}
+.form-icon{
+    position: relative;
+}
+.form-icon>span{
+    display: block;
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+    position: absolute;
+    left:0;
+    top: calc(50% - 20px);
+}
+.form textarea{
+    height: 150px;
+    resize: none;
+    box-shadow: 2px 2px 1px lightgrey , -2px -2px 1px lightgrey;
+    border-radius: 10px;
+}
+
+.form textarea::placeholder{
+    font-size: 13px;
+    font-weight:600;
+    color: black;
+}
+.form button[type=submit]{
+    background-image: linear-gradient(45deg,#412493 0%,#0077b6 90%);
+    color: #fff;
+    border-radius: 20px !important;
+    padding:10px 50px;
+    width: 300px;
+}
+.form-header h5{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.send{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height:23.98px;
+}
+.second img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.msgBox{
+    padding:30px;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    direction: ltr;
+}
+.msgBox .object{
+    display: block;
+    width: 200px;
+    height: 255px;
+}
+.msgBox>img.woman{
+    height: 200px;
+    width: 100px;
+}
+.msgBox>img.message{
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    left: calc(50% - 55px);
+    top: calc(50% - 80px);
+}
+
+/*... mapBoxes ...*/
+
+.mapBoxes{
+    direction: rtl;
+}
+.map-item{
+    box-shadow: 2px 2px 2px lightgrey , -2px -2px 2px lightgrey;
+    border-radius: 10px;
+    position: relative;
+}
+
+.map-item iframe{
+    display: block;
+    width: 100%;
+}
+
+.map-item>img.location{
+    display: block;
+    width: 128px;
+    height: 142px;
+    position: absolute;
+    left: calc(50% - 56px);
+    top: calc(50% - 80px);
+}
+.sub-item{
+    border: 2px solid #f5f5f5;
+    direction: rtl;
+}
+.connect-heading{
+    font-size: 18px;
+    font-weight: bold;
+}
+.phoneBox{
+    direction: ltr !important;
+}
+.phoneBox>span:nth-of-type(1){
+    display: block;
+    padding: 10px;
+    border-radius: 50%;
+    background-color:#00BA88;
+}
+.phoneBox>span:nth-of-type(1)>img{
+    display: block;
+   width: 40px;
+   height: 40px;
+}
+.phoneBox>span.phoneNo{
+    font-family: farsi-digit;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.phoneBox>span.mail{
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.social{
+    direction: ltr;
+}
+.social>a{
+    display: block;
+    margin-left: 7px;
+    padding:5px;
+    border: 2px solid #00BA88;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.social>a>img{
+    display: block;
+    width: 40px !important;
+    height: 40px !important;
+}
+.rotate{
+    transform: rotate(360deg);
+  
+}
+
+/*... support ... */
+
+.support .row{
+    direction: rtl;
+}
+
+.support-item{
+    border: 2px solid lightgray;
+    border-radius: 80px;
+    background: linear-gradient(90deg, #022971 0%, #044ED7 100%);
+    padding:10px 20px 10px 10px;
+}
+.mr-50{
+    margin-right: 50px;
+}
+
+.support-item .show-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+.support-item .show-icon img{
+    display: block;
+}
+.support-item .show-text{
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    direction: rtl;
+    text-align: right;
+}
+.second{
+    padding-right: 40px;
+    font-size: 14px !important;
+    color: rgb(218, 210, 210) !important;
+}
